@@ -1,0 +1,450 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/data/CS/DNC/CompanyApp/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.API.Controllers.EmployeesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.API.Controllers.EmployeesController.html",
+          "hash": "2RaXMC7svyoxAhmigOa9jJqSzJhhTvg27HIXISjQJYc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.API.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.API.Controllers.html",
+          "hash": "nVZ9gh03bOKblvdm2ObBSF2QPcPb+HAf2HBJRY381hI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.API.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.API.Program.html",
+          "hash": "nUZegcFOpzvBjKNicuUWsxso/YyEvQW2Mgt7Qv1i3O4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.API.html",
+          "hash": "Pxxw/GkBCRxIIlNNnp/6qCh+n4fNfDDYmb3hPiJYrA4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Database.Context.CompanyAppDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Database.Context.CompanyAppDbContext.html",
+          "hash": "pxC7T5mPkZnat6oFivGKB7VLpp4ff1oK2LiljrjhBiI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Database.Context.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Database.Context.html",
+          "hash": "UDForg0895tcst9BnHwfd6EBB2IfobfYoIJvhGOZG1Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Database.Migrations.Init.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Database.Migrations.Init.html",
+          "hash": "JpHgxXH8Ke4qeVfOA0JbrWG2IJ3IKIT+Z6Z1HLaAERk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Database.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Database.Migrations.html",
+          "hash": "bBpIVW1DX+GrYOwnWq9PDvDDqYt1/f6GT492IZzkhpM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Domain.Entities.Employee.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Domain.Entities.Employee.html",
+          "hash": "WyxQoBjueYk0aeWL77xWOB1ZBTEpU9sMFHDGPayzt9I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Domain.Entities.Entity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Domain.Entities.Entity.html",
+          "hash": "nugZ1RIAvFPy+6KOKx/s3y8BvZ+R/Pb16YKzcGav91c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Domain.Entities.Position.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Domain.Entities.Position.html",
+          "hash": "+Dl26tY3ptVDueuEnMY6xK4JENbmA3Q1A5VQ8N7mGGs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Domain.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Domain.Entities.html",
+          "hash": "J2Log79/t0Vojw67cW2Kmz9uIa+BG/X5uvkfBqylaLA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Domain.ViewModels.AddedEmployeeViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Domain.ViewModels.AddedEmployeeViewModel.html",
+          "hash": "Hba3rkxvxplWg8crzRsd9LtENerw6eAM5DnNQZ7uUZc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Domain.ViewModels.EmployeeBaseViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Domain.ViewModels.EmployeeBaseViewModel.html",
+          "hash": "gdvhJB+sJO5tZ4LYViBvLiAjZM/9ZTqn35E9SqQXV5k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Domain.ViewModels.EmployeeViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Domain.ViewModels.EmployeeViewModel.html",
+          "hash": "8yQaC7HhiDnZGp4MEwODJIsi92bljc3zI9AkuUYG1r0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Domain.ViewModels.LeaderPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Domain.ViewModels.LeaderPosition.html",
+          "hash": "oLlMThtW532m2c6YWci/S9gkwL/Moft6iNGchVsQM14="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Domain.ViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Domain.ViewModels.html",
+          "hash": "wm86ecaMGHwWzOspZm1Iks/iCEVnzdAnvz3t4HgAEzg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Infrastructure.Initializers.CompanyAppDbInitializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Infrastructure.Initializers.CompanyAppDbInitializer.html",
+          "hash": "WYQcTQ7mgB8oHrcBekxvnUE+s17/CiaIGOXfHlz7bnQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Infrastructure.Initializers.IDbInitializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Infrastructure.Initializers.IDbInitializer.html",
+          "hash": "taH7MvVj5QUJywDJcTNJ4BtGz2GF69mgh9vfsf0qMyY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Infrastructure.Initializers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Infrastructure.Initializers.html",
+          "hash": "DDC5Q8VGySnO0cXDgAOHotFgw9tU0S+dcYDt3DwcBV8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Infrastructure.Services.Mapping.EmployeeMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Infrastructure.Services.Mapping.EmployeeMapper.html",
+          "hash": "kQ8OtrDkiCt8Qa0hP7pZuC9RsY7UZgS/rJ233yT9eAo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Infrastructure.Services.Mapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Infrastructure.Services.Mapping.html",
+          "hash": "FEeefWxZy40n2unhaa9+AjpgpU5DCM7mO2Rpfpz5onQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Infrastructure.Services.Stores.Employees.EmployeesDBStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Infrastructure.Services.Stores.Employees.EmployeesDBStore.html",
+          "hash": "JLrMx29h1czVjEcDAUEa8LRpcCS5bKGGZ6W1+MRHPww="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Infrastructure.Services.Stores.Employees.IEmployeesStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Infrastructure.Services.Stores.Employees.IEmployeesStore.html",
+          "hash": "jFmFw3Bp0N4cqyqr/l2rUzvvKkSmEO+lSuwoT4eLZNY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Infrastructure.Services.Stores.Employees.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Infrastructure.Services.Stores.Employees.html",
+          "hash": "9W126MnQ8BDLMJD8QqRo4r40HKcxNTvSd5KDII+C2co="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Infrastructure.StaticData.TestData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Infrastructure.StaticData.TestData.html",
+          "hash": "ooOrUvC0nLcf3TaO2Wd9/b2WQ/xoP3XkXyVqyFLx8VQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CompanyApp.Infrastructure.StaticData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CompanyApp.Infrastructure.StaticData.html",
+          "hash": "QJrBUBBpcqJ7+iwZ9Eo0iIiSawjMOnWifhbBofvaRW8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "N6sFbSGgBrqlU5mrDa95pcctEX6b4B+ZnVcjfj2HPVs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "Ztwav+tNOBDHTr59ff5JE8rGH5qM+QuZKS1deNF8RXc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "XsT6UQbUmKDxiezOJWooRsdmTzTJ7mbPMLwrwDGpVwQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "djDhjO51h5hKs6AURGDOsQloYYUh8zSM/yKkV/nWeUM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 27,
+          "skipped_file_count": 19
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
