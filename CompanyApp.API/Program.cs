@@ -3,6 +3,7 @@ using Serilog;
 using Microsoft.EntityFrameworkCore;
 using CompanyApp.Database.Context;
 using CompanyApp.Infrastructure.Initializers;
+using CompanyApp.Infrastructure.Services.Stores.Employees;
 
 namespace CompanyApp.API
 {
@@ -39,9 +40,8 @@ namespace CompanyApp.API
              .UseLazyLoadingProxies()
             );
 
-
-
-
+            services.AddTransient<IDbInitializer, CompanyAppDbInitializer>();
+            services.AddScoped<IEmployeesStore, EmployeesDBStore>();
 
             services.AddCors(opt =>
             {
