@@ -27,6 +27,7 @@ DefaultApiUrl = "http://localhost:5001/api";
 В терминале выполните:
 ```powershell
 cd company-app-client
+npm install
 npm start
 ```
 
