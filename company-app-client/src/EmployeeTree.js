@@ -56,7 +56,7 @@ const EmployeeHierarchy = () => {
                 {subordinates.map(subordinate => (
                     <li key={subordinate.id} className={`${color}-element-bg ${colorParent}-element-b`}>
                         <span className={`${color}-element-b employee-info ${color}-employee-info`}>
-                            {`ID: ${subordinate.id} - ${subordinate.firstName} ${subordinate.firstName} ${subordinate.patronymic} (${subordinate.jobTitle}), LeaderId: ${subordinate.leaderId}`}
+                            {`ID: ${subordinate.id} - ${subordinate.surName} ${subordinate.firstName} ${subordinate.patronymic} (${subordinate.jobTitle}), LeaderId: ${subordinate.leaderId}`}
                         </span>
                         {renderEmployeeTree(employees, subordinate.id, level + 1)}
                     </li>

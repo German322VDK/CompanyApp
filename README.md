@@ -15,6 +15,10 @@
 - **SQLite** для локальной БД
 - **XUnit** для тестирования DBStore и Controller
 ---
+
+## Пример страницы
+![Пример страницы](docs/client-examle.png)
+
 ## Запуск через ASP.Net core API + React
 
 ### Установка подключения клиента к API
