@@ -1,0 +1,19 @@
+services:
+  backend:
+    image: companyappapi:latest
+    build:
+      context: ./CompanyApp.API
+      dockerfile: Dockerfile
+
+  client:
+    image: companyappclient:latest
+    build: 
+      context: ./company-app-client
+      dockerfile: Dockerfile
+
+  proxy:
+    image: companyappnginx:latest
+    build: 
+      context: ./Nginx
+      dockerfile: Dockerfile
+
