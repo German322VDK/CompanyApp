@@ -2,6 +2,7 @@ using Serilog.Events;
 using Serilog;
 using Microsoft.EntityFrameworkCore;
 using CompanyApp.Database.Context;
+using CompanyApp.Infrastructure.Initializers;
 
 namespace CompanyApp.API
 {
@@ -16,7 +17,7 @@ namespace CompanyApp.API
         /// Точка входа
         /// </summary>
         /// <param name="args"></param>
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
             _configuration = builder.Configuration;
@@ -25,6 +26,8 @@ namespace CompanyApp.API
             ConfigureServices(builder.Services);
             var app = builder.Build();
             Configure(app);
+
+            await DbInit(app);
 
             app.Run();
         }
@@ -35,6 +38,8 @@ namespace CompanyApp.API
              .UseSqlite(_configuration.GetConnectionString("Sqlite"))
              .UseLazyLoadingProxies()
             );
+
+
 
 
 
@@ -81,8 +86,19 @@ namespace CompanyApp.API
             .ReadFrom.Configuration(_configuration)
             .MinimumLevel.Information()
             .Enrich.FromLogContext()
-            .WriteTo.File($"Logs/Info/Full-TestCompanyApp.API[ {DateTime.Now:yyyy-MM-dd}].log", LogEventLevel.Information)
-            .WriteTo.File($"Logs/Error/Error-TestCompanyApp.API[ {DateTime.Now:yyyy-MM-dd}].log", LogEventLevel.Error)
+            .WriteTo.File($"Logs/Info/Full-CompanyApp.API[ {DateTime.Now:yyyy-MM-dd}].log", LogEventLevel.Information)
+            .WriteTo.File($"Logs/Error/Error-CompanyApp.API[ {DateTime.Now:yyyy-MM-dd}].log", LogEventLevel.Error)
             .CreateLogger();
+
+        private static async Task DbInit(WebApplication app)
+        {
+            using (IServiceScope scope = app.Services.CreateScope())
+            {
+                IServiceProvider services = scope.ServiceProvider;
+
+                IDbInitializer dbInitializer = services.GetRequiredService<IDbInitializer>();
+                await dbInitializer.InitializeAsync();
+            }
+        }
     }
 }
